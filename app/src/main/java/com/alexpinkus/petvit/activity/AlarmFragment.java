@@ -44,8 +44,6 @@ public class AlarmFragment extends Fragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //((MainActivity)getActivity()).publishMessage();
     }
 
     @Override
@@ -148,7 +146,7 @@ public class AlarmFragment extends Fragment
         messageData = String.valueOf(messageChars);
         Toast.makeText(getActivity(), messageData, Toast.LENGTH_LONG).show();
         Log.d(TAG, messageData);
-        ((MainActivity)getActivity()).publishMessage(messageData);
+        //((MainActivity)getActivity()).publishMessage(messageData);
     }
 
     @Override

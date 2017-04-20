@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.alexpinkus.petvit.activity.DietFragment">
+
+    <TextView
+        android:id="@+id/dietaSugeridaTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dieta sugerida"
+        android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+        android:textColor="@color/colorAccent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dietaSugeridaEdit"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="Se recomienda que para su mascota deacuerdo con la base de datos reciba"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/dietaSugeridaEdit"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

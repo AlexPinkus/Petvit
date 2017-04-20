@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
 
     private static final String TAG = "MyActivity";
 
-    //New Comment
-    //Hello world
     //Variables par la comunicación mqtt.
     MqttAndroidClient mqttAndroidClient;
 
@@ -280,8 +278,12 @@ public class MainActivity extends AppCompatActivity implements FragmentDrawer.Fr
                 title = getString(R.string.title_schedule);
                 break;
             case 2:
-                fragment = new HomeFragment();
+                fragment = new DietFragment();
                 title = getString(R.string.title_messages);
+                break;
+            case 3:
+                fragment = new InformacionFragment();
+                title = "Informacion";
                 break;
             default:
                 break;

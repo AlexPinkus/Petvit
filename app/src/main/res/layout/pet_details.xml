@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lawyer_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/fragment_informacion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailDescriptionTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/detailDescriptionEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El Chihuahueño es la raza más pequeña de todas las existentes con un peso que va de 1 kg a los 3 Kg. Su cuerpo es ligeramente más largo que alto, su cabeza es como un cubo con las puntas redondeadas con grandes orejas que asemejan un reloj marcando 10 para las 2. La línea dorsal es recta y la cola curva llevada en todo lo alto. La variedad de pelo corto lo presenta corto, pegado al cuerpo, ligeramente más largo en el cuello y en la cola."
+            android:textAlignment="viewStart"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+
+        <TextView
+            android:id="@+id/detailPesoTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peso"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/detailPesoEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 kg"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+
+        <TextView
+            android:id="@+id/detailAlturaTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Altura"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/detailAlturaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50 cm"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+
+        <TextView
+            android:id="@+id/detailEsperanzaTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esperanza de vida"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/detailEsperanzaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 años"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+
+        <TextView
+            android:id="@+id/detailOrigenTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Origen"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/detailOrigenEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 kg"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+
+        <TextView
+            android:id="@+id/detailHistoriaTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Historia"
+            android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/detailHistoriaEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 kg"
+            android:textAppearance="@android:style/TextAppearance.Material.Small" />
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
