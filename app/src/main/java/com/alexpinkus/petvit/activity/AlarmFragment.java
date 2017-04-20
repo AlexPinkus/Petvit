@@ -109,7 +109,6 @@ public class AlarmFragment extends Fragment
         }
         editor.commit();
     }
-    a little changes
 */
 
     @Override
