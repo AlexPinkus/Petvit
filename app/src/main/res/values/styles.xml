@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MaterialLight" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/primary_material_light</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
+        <item name="colorAccent">@color/accent_material_light</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
+
+    <style name="MaterialDark" parent="Theme.AppCompat.NoActionBar" >
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+    </style>
+
+
+    <style name="ControlAccentThemeOverlay">
+        <!-- Attributes from support.v7.appcompat -->
+        <item name="colorControlActivated">?attr/colorAccent</item>
+    </style>
+
+
+
+</resources>
