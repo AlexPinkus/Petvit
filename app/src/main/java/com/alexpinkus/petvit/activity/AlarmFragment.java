@@ -106,6 +106,7 @@ public class AlarmFragment extends Fragment
             editor.putInt("Grams"+i, data.get(i).getGrams());
         }
         editor.commit();
+        editor
     }
 */
 
