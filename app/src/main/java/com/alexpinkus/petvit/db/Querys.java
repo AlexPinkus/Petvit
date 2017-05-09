@@ -36,7 +36,7 @@ class RazaCursor extends CursorWrapper {
     public Raza getAllRazas(){
         Cursor cursor = getWrappedCursor();
         return new Raza(cursor.getInt(cursor.getColumnIndex(DBSchema.RazasTable.Columns.ID)),
-                cursor.getInt(cursor.getColumnIndex(DBSchema.RazasTable.Columns.TIPO_RAZA)),
+                cursor.getString(cursor.getColumnIndex(DBSchema.RazasTable.Columns.TIPO_RAZA)),
                 cursor.getString(cursor.getColumnIndex(DBSchema.RazasTable.Columns.NOMBRE_RAZA)),
                 cursor.getString(cursor.getColumnIndex(DBSchema.RazasTable.Columns.PESO_ADULTO)),
                 cursor.getString(cursor.getColumnIndex(DBSchema.RazasTable.Columns.ALTURA_ADULTO)),

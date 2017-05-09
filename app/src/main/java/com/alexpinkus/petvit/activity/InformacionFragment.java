@@ -37,12 +37,14 @@ public class InformacionFragment extends Fragment {
     private String peso;
     private String origen;
     private String descripcion;
+    private String tipo;
     private TextView txtHistoria;
     private TextView txtDescripcion;
     private TextView txtEdad;
     private TextView txtPeso;
     private TextView txtAltura;
     private TextView txtOrigen;
+    private TextView txtTipo;
 
     public InformacionFragment() {
         // Required empty public constructor
@@ -68,6 +70,7 @@ public class InformacionFragment extends Fragment {
         txtOrigen = (TextView)rootView.findViewById(R.id.detailOrigenEdit);
         txtPeso = (TextView)rootView.findViewById(R.id.detailPesoEdit);
         txtHistoria = (TextView)rootView.findViewById(R.id.detailHistoriaEdit);
+        txtTipo = (TextView)rootView.findViewById(R.id.detailTipoEdit);
 
         querys = new Querys(getActivity().getApplicationContext());
         myPet = querys.getMyPet();
@@ -82,6 +85,7 @@ public class InformacionFragment extends Fragment {
                 descripcion = raza.getDescripcion();
                 altura = raza.getAltura_adulto();
                 peso = raza.getPeso_adulto();
+                tipo = raza.getTipo_raza();
             }
         }
 
@@ -91,6 +95,7 @@ public class InformacionFragment extends Fragment {
         txtAltura.setText(altura);
         txtEdad.setText(esperanza);
         txtOrigen.setText(origen);
+        txtTipo.setText(tipo);
 
         mCollapsingView.setTitle(nameRaza);
         mCollapsingView.setCollapsedTitleTextColor(Color.BLACK);

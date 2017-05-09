@@ -1,0 +1,3 @@
+CREATE TABLE "pet" ("id" INTEGER NOT NULL , "nombre" TEXT NOT NULL , "edad" INTEGER NOT NULL , "peso" INTEGER NOT NULL , "raza_id" INTEGER NOT NULL , "foto" TEXT);
+CREATE TABLE "porciones" ("id" INTEGER PRIMARY KEY  NOT NULL , "raza_id" INTEGER NOT NULL , "peso_pet" INTEGER, "edad_pet" INTEGER, "tipo_raza_" TEXT, "gramos" INTEGER  NOT NULL );
+CREATE TABLE "razas" ("id" INTEGER PRIMARY KEY  NOT NULL , "tipo_raza" TEXT NOT NULL , "nombre_raza" TEXT NOT NULL , "peso_adulto" TEXT, "altura_adulto" TEXT, "descripcion" TEXT NOT NULL , "esperanza" TEXT, "origen" TEXT, "historia" TEXT, "foto" TEXT);

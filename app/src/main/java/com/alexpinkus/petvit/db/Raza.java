@@ -7,7 +7,7 @@ package com.alexpinkus.petvit.db;
 public class Raza {
 
     private int id;
-    private int tipo_raza;
+    private String tipo_raza;
     private String nombre_raza;
     private String peso_adulto;
     private String altura_adulto;
@@ -25,11 +25,11 @@ public class Raza {
         this.id = id;
     }
 
-    public int getTipo_raza() {
+    public String getTipo_raza() {
         return tipo_raza;
     }
 
-    public void setTipo_raza(int tipo_raza) {
+    public void setTipo_raza(String tipo_raza) {
         this.tipo_raza = tipo_raza;
     }
 
@@ -97,7 +97,7 @@ public class Raza {
         this.foto = foto;
     }
 
-    public Raza(int id, int tipo_raza, String nombre_raza, String peso_adulto, String altura_adulto, String descripcion, String esperanza, String origen, String historia, String foto) {
+    public Raza(int id, String tipo_raza, String nombre_raza, String peso_adulto, String altura_adulto, String descripcion, String esperanza, String origen, String historia, String foto) {
         this.id = id;
         this.tipo_raza = tipo_raza;
         this.nombre_raza = nombre_raza;
